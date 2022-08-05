@@ -10,9 +10,34 @@ export class AllShoes extends Component {
 
   render() {
     const allShoes = this.props.allShoes;
+    console.log(allShoes);
+    //  const filteredArr = allShoes.filter((shoe) => {
+    //   if (this.state.brand === 'all') {
+    //     return shoe
+    //   } else if (shoe.brand === this.state.brand) {
+    //     return shoe
+    //   }
+    // })
     return (
       <div id="all-shoes-view">
-        <h1>All Shoes</h1>
+        {/* FILTER BAR */}
+        <div id="filter-bar">
+          <div id="brand-filter">
+            <a>Filter By</a>
+          </div>
+
+          <div id="brand-filter-content">
+            {allShoes.map((shoe) => {
+              return <a>{shoe.name}</a>;
+            })}
+            {/* <a>Brand</a>
+            <a>Brand</a>
+            <a>Brand</a>
+            <a>Brand</a> */}
+          </div>
+        </div>
+
+        {/* FILTER BAR */}
         <div id="product-view">
           {allShoes.map((shoe) => {
             return (

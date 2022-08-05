@@ -171,6 +171,135 @@ form div {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/* FILTER BAR (IN ALL SHOES) */
+
+#brand-filter {
+  margin-top: 20px;
+  height: 40px;
+  width: fit-content;
+}
+
+#brand-filter-content {
+  display: none;
+}
+
+#brand-filter:hover + #brand-filter-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#brand-filter-content:hover {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#brand-filter-content a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: fit-content;
+}
+
+#brand-filter-content a:hover {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: fit-content;
+  background-color: rgb(138, 137, 137);
+}
+
+#filter-bar {
+  /* display: flex;
+  background-color: rgb(122, 21, 169);
+  height: 50px;
+  justify-content: space-between;
+  align-items: center; */
+  /* position: fixed; */
+
+  /* padding-left: 7px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+#brand-filter {
+  /* display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column; */
+  /* border-radius: 15px; */
+  /* width: 125px; */
+  /* height: 45px; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  /* background-color: transparent; */
+  /* border-width: 3px;
+  border-color: black;
+  border-style: solid; */
+  /* justify-content: center; */
+}
+
+#brand-filter:hover + #filter-bar {
+  /* display: flex;
+  background-color: rgb(122, 21, 169);
+  height: 200px;
+  justify-content: space-between;
+  align-items: flex-start; */
+  /* position: fixed; */
+  /* padding-left: 7px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: row; */
+}
+
+#filter-bar:hover {
+  /* display: flex;
+  background-color: rgb(122, 21, 169);
+  height: 200px;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding-left: 7px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: row; */
+}
+
+#brand-filter-content {
+  /* display: none; */
+  /* display: flex;
+  flex-direction: column;
+
+  position: absolute; */
+  /* background-color: #f9f9f9; */
+  /* min-width: 160px; */
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  /* padding: 12px 16px;
+  z-index: 1; */
+}
+
+#brand-filter-content a {
+  /* display: none; */
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+}
+
+#brand-filter:hover + #filter-bar a {
+  /* display: block;
+  margin-top: 5px;
+  margin-bottom: 5px; */
+}
+
+#brand-filter-content a:hover {
+  /* display: block;
+  margin-top: 5px;
+  margin-bottom: 5px; */
+}
+
+#brand-filter:hover + #brand-filter-content {
+  /* display: flex;
+  flex-direction: column; */
+}
+
 /* SINGLE SHOE VIEW */
 
 #single-shoe-view {
