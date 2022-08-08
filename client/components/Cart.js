@@ -10,41 +10,41 @@ class Cart extends Component {
         // console.log(this.props)
         this.deleteFromCart = this.deleteFromCart.bind(this)
     }
-    
+
     async componentDidMount(){
         if(!!this.props.auth.id)
         {
             // await this.props.getUserCart(this.props.auth.id)
             await this.props.updateUser({id: this.props.auth.id,
                 cart: this.props.Cart
-            })         
+            })
             // this.props.getUserCart(this.props.auth.id)
         }
     }
-    
+
     async deleteFromCart(){
         await this.props.deleteShoe(event.target.value)
         if(!!this.props.auth.id)
         {
             this.props.updateUser({id: this.props.auth.id,
                 cart: this.props.Cart
-            })         
+            })
         }
       }
-    
+
     render(){
     const { Cart } = this.props
     // console.log(Cart)
         return (
         <div>
         <br/><br/><br/><br/>
-        {Cart.length > 0? Cart.map(cart => 
+        {Cart.length > 0? Cart.map(cart =>
            { return (
            <div key={cart.id}>
            <img src={cart.product.imageUrl} />
            <h3>{cart.product.name}</h3>
            {cart.size}
-           <button onClick={this.deleteFromCart} value={cart.id}>delete</button>
+
            </div>)
         }): 'Cart is currently emtpy'}
         </div>)
