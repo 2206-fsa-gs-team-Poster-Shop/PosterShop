@@ -155,10 +155,8 @@ export class AllShoes extends Component {
   componentDidMount() {
     this.props.getShoes();
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> 2d4a6358150428c391447c2c413f11aa4476d81e
+
   clickHandler(event) {
     const target = event.target.innerHTML;
     this.setState({
@@ -171,11 +169,9 @@ export class AllShoes extends Component {
   render() {
     const allShoes = this.props.allShoes;
     console.log(allShoes);
-<<<<<<< HEAD
+
     const { clickHandler } = this;
-=======
-    const {clickHandler} = this;
->>>>>>> 2d4a6358150428c391447c2c413f11aa4476d81e
+
     //  const filteredArr = allShoes.filter((shoe) => {
     //   if (this.state.brand === 'all') {
     //     return shoe

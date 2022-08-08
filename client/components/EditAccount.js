@@ -22,13 +22,12 @@ constructor(props){
         this.deleteAccount = this.deleteAccount.bind(this)
 }
 
-<<<<<<< HEAD
+
     // this.handleChange = this.handleChange.bind(this);
     // this.handleSubmit = this.handleSubmit.bind(this);
   // }
 
-=======
->>>>>>> 2d4a6358150428c391447c2c413f11aa4476d81e
+
   handleChange(event) {
     this.setState({
       [event.target.name]: event.target.value,
