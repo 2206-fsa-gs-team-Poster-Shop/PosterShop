@@ -59,7 +59,7 @@ deleteAccount(){
     const { firstName, lastName, imageUrl, phoneNumber, email } = this.state;
     // console.log(this.state)
     return (
-      
+
       <div id="edit_account_body">
         <div class="edit_account_content">
           <form id="edit_account" onSubmit={this.handleSubmit}>
