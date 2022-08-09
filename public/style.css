@@ -514,3 +514,56 @@ label {
 .cancel-button:hover {
   border-color: rgb(255, 255, 255);
 }
+
+
+/* ACCOUNT PAGE CSS */
+.account-container {
+  display: flex;
+  justify-content: center;
+  padding: 6em;
+  margin-top: 20px;
+  border-radius: 25px;
+  background: rgba(233, 230, 230, 0.8);
+
+}
+
+.card {
+  background-color: white;
+  width: 280px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 15px;
+
+}
+
+.card-image {
+  background-color:white;
+  height: 250px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 25px 25px 0 0;
+
+}
+
+.car-1 {
+  background-image: url('https://media.gettyimages.com/vectors/product-search-flat-line-icon-with-editable-stroke-vector-id1389851540?s=2048x2048');
+}
+.car-2 {
+  background-image: url('https://media.gettyimages.com/vectors/product-search-flat-line-icon-with-editable-stroke-vector-id1389851540?s=2048x2048');
+}
+.car-3 {
+  background-image: url('https://media.gettyimages.com/vectors/product-search-flat-line-icon-with-editable-stroke-vector-id1389851540?s=2048x2048');
+}
+
+
+.card-title h2 {
+  padding: 10px;
+}
+
+.cart-text {
+  color: gray;
+}
+
+#text {
+  color: gray;
+}
