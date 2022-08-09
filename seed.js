@@ -48,7 +48,7 @@ const products = [
     name: "Air Jordan Bred 11s",
     size: 9,
     imageUrl:
-      "https://media.gettyimages.com/photos/dec-1995-a-closeup-shot-of-air-jordans-as-they-appear-on-the-court-picture-id394305?s=2048x2048",
+      "https://cdn.flightclub.com/2600/TEMPLATE/802269/1.jpg",
     description:
       "6 Dec 1995: A close-up shot of Air Jordans as they appear on the court during the game between the New York Knicks and the Chicago Bulls at the United Center in Chicago, Illinois. The Bulls defeated the Knicks 101-94. Mandatory Credit: Jonathan Daniel /Allsport",
     category: "M",
@@ -57,10 +57,10 @@ const products = [
     price: 220,
   },
   {
-    name: "Kobe Bryant Air Women",
+    name: "DUNK LOW PREMIUM",
     size: 7,
     imageUrl:
-      "https://media.gettyimages.com/photos/los-angeles-lakers-kobe-bryant-during-visit-to-watts-willowbrook-boys-picture-id1203204257?s=2048x2048",
+      "https://cdn.flightclub.com/2600/TEMPLATE/311754/1.jpg",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     category: "W",
@@ -71,7 +71,7 @@ const products = [
     name: "Nike African Style",
     size: 12,
     imageUrl:
-      "https://media.gettyimages.com/photos/africanamerican-rapper-songwriter-actor-and-record-producer-antwan-picture-id1329737317?s=2048x2048",
+      "https://cdn.flightclub.com/2600/TEMPLATE/320354/1.jpg",
     description:
       "African-American rapper, songwriter, actor and record producer Antwan André Patton (born 1975), known by his stage name Big Boi, is best known for being a member of the southern hip hop duo Outkast. Pair of white Nike sneakers with glitter red, blue, and yellow sections worn by Big Boi of Outkast. The low-top sneakers have white leather on the perforated top toes, the front half of the side vamps, the upper portion of the heel cap, and on the facing of the tongues. ",
     category: "U",
