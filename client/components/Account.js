@@ -20,35 +20,35 @@ class Account extends Component {
             <br></br>
 
         <div className="card account">
-          <div className="card-image car-1">image</div>
+          <div className="card-image car-1"></div>
           <div className="card-title"><h2>Account</h2></div>
-          <div className="card-text"><h4 id="text">Text</h4></div>
-          <div className="card-account-button">
+          <div className="card-text"><h5 id="text">edit account information, submit account </h5></div>
+          <div className="card-button">
             <Link to="/editaccount">
-              <button>Edit</button>
+              <button className="button">Edit</button>
             </Link>
           </div>
         </div>
 
         <div className="card security">
-          <div className="card-image car-2">image</div>
+          <div className="card-image car-2"></div>
           <div className="card-title"><h2>Security</h2></div>
-          <div className="card-text"><h4 id="text">Text</h4></div>
+          <div className="card-text"><h4 id="text">login and password</h4></div>
           <div className="card-button">
             <Link to="/editsecurity">
-              <button>Edit</button>
+              <button className="button">Edit</button>
             </Link>
           </div>
         </div>
 
         <div className="card payment">
-        <div className="card-image car-3">image</div>
+        <div className="card-image car-3"></div>
           <div className="card-payment-info">
             <h2>Payment Information</h2></div>
-            <div className="card-text "><h4 id="text">Text</h4></div>
-          <div className="card-button cardButton">
+            <div className="card-text "><h4 id="text">edit payment information and shipping address</h4></div>
+          <div className="card-button">
             <Link to="/editpayment">
-              <button>Edit</button>
+              <button className="button">Edit</button>
             </Link>
           </div>
         </div>
